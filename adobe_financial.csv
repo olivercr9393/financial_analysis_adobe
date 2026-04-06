@@ -1,0 +1,134 @@
+Company;Statement;Metric;Year;Value
+Adobe;Income Statement;Revenue;2019;11171
+Adobe;Income Statement;Revenue;2020;12868
+Adobe;Income Statement;Revenue;2021;15785
+Adobe;Income Statement;Revenue;2022;17606
+Adobe;Income Statement;Revenue;2023;19409
+Adobe;Income Statement;Revenue;2024;21505
+Adobe;Income Statement;Revenue;2025;23769
+Adobe;Income Statement;Gross Profit;2019;9498
+Adobe;Income Statement;Gross Profit;2020;11146
+Adobe;Income Statement;Gross Profit;2021;13920
+Adobe;Income Statement;Gross Profit;2022;15441
+Adobe;Income Statement;Gross Profit;2023;17055
+Adobe;Income Statement;Gross Profit;2024;19147
+Adobe;Income Statement;Gross Profit;2025;21218
+Adobe;Income Statement;Research & Development;2019;-1930
+Adobe;Income Statement;Research & Development;2020;-2188
+Adobe;Income Statement;Research & Development;2021;-2540
+Adobe;Income Statement;Research & Development;2022;-2987
+Adobe;Income Statement;Research & Development;2023;-3473
+Adobe;Income Statement;Research & Development;2024;-3944
+Adobe;Income Statement;Research & Development;2025;-4294
+Adobe;Income Statement;Operating Income (Loss);2019;3268
+Adobe;Income Statement;Operating Income (Loss);2020;4237
+Adobe;Income Statement;Operating Income (Loss);2021;5802
+Adobe;Income Statement;Operating Income (Loss);2022;6098
+Adobe;Income Statement;Operating Income (Loss);2023;6650
+Adobe;Income Statement;Operating Income (Loss);2024;7741
+Adobe;Income Statement;Operating Income (Loss);2025;8706
+Adobe;Income Statement;Pretax Income (Loss);2019;3205
+Adobe;Income Statement;Pretax Income (Loss);2020;4176
+Adobe;Income Statement;Pretax Income (Loss);2021;5705
+Adobe;Income Statement;Pretax Income (Loss);2022;6008
+Adobe;Income Statement;Pretax Income (Loss);2023;6799
+Adobe;Income Statement;Pretax Income (Loss);2024;6931
+Adobe;Income Statement;Pretax Income (Loss);2025;8734
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2019;-254
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2020;1084
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2021;-883
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2022;-1252
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2023;-1371
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2024;-1371
+Adobe;Income Statement;Income Tax (Expense) Benefit, net;2025;-1604
+Adobe;Income Statement;Net Income;2019;2951
+Adobe;Income Statement;Net Income;2020;5260
+Adobe;Income Statement;Net Income;2021;4822
+Adobe;Income Statement;Net Income;2022;4756
+Adobe;Income Statement;Net Income;2023;5428
+Adobe;Income Statement;Net Income;2024;5560
+Adobe;Income Statement;Net Income;2025;7130
+Adobe;Cash Flow;Depreciation & Amortization;2019;757
+Adobe;Cash Flow;Depreciation & Amortization;2020;757
+Adobe;Cash Flow;Depreciation & Amortization;2021;788
+Adobe;Cash Flow;Depreciation & Amortization;2022;856
+Adobe;Cash Flow;Depreciation & Amortization;2023;872
+Adobe;Cash Flow;Depreciation & Amortization;2024;857
+Adobe;Cash Flow;Depreciation & Amortization;2025;818
+Adobe;Cash Flow;Cash from Operating Activities;2019;4422
+Adobe;Cash Flow;Cash from Operating Activities;2020;5727
+Adobe;Cash Flow;Cash from Operating Activities;2021;7230
+Adobe;Cash Flow;Cash from Operating Activities;2022;7838
+Adobe;Cash Flow;Cash from Operating Activities;2023;7302
+Adobe;Cash Flow;Cash from Operating Activities;2024;8056
+Adobe;Cash Flow;Cash from Operating Activities;2025;10031
+Adobe;Cash Flow;Cash from Investing Activities;2019;-456
+Adobe;Cash Flow;Cash from Investing Activities;2020;-414
+Adobe;Cash Flow;Cash from Investing Activities;2021;-3537
+Adobe;Cash Flow;Cash from Investing Activities;2022;-570
+Adobe;Cash Flow;Cash from Investing Activities;2023;776
+Adobe;Cash Flow;Cash from Investing Activities;2024;149
+Adobe;Cash Flow;Cash from Investing Activities;2025;-1187
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2019;-2517
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2020;-2780
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2021;-3659
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2022;-6272
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2023;-4086
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2024;-9139
+Adobe;Cash Flow;Cash From (Repurchase of) Equity;2025;-10933
+Adobe;Cash Flow;Cash from Financing Activities;2019;-2946
+Adobe;Cash Flow;Cash from Financing Activities;2020;-3488
+Adobe;Cash Flow;Cash from Financing Activities;2021;-4301
+Adobe;Cash Flow;Cash from Financing Activities;2022;-6825
+Adobe;Cash Flow;Cash from Financing Activities;2023;-5182
+Adobe;Cash Flow;Cash from Financing Activities;2024;-7724
+Adobe;Cash Flow;Cash from Financing Activities;2025;-11060
+Adobe;Balance Sheet;Total Current Assets;2019;6495
+Adobe;Balance Sheet;Total Current Assets;2020;8146
+Adobe;Balance Sheet;Total Current Assets;2021;8669
+Adobe;Balance Sheet;Total Current Assets;2022;8996
+Adobe;Balance Sheet;Total Current Assets;2023;11084
+Adobe;Balance Sheet;Total Current Assets;2024;11232
+Adobe;Balance Sheet;Total Current Assets;2025;10163
+Adobe;Balance Sheet;Total Assets;2019;20762
+Adobe;Balance Sheet;Total Assets;2020;24284
+Adobe;Balance Sheet;Total Assets;2021;27241
+Adobe;Balance Sheet;Total Assets;2022;27165
+Adobe;Balance Sheet;Total Assets;2023;29779
+Adobe;Balance Sheet;Total Assets;2024;30230
+Adobe;Balance Sheet;Total Assets;2025;29496
+Adobe;Balance Sheet;Long Term Debt;2019;989
+Adobe;Balance Sheet;Long Term Debt;2020;4117
+Adobe;Balance Sheet;Long Term Debt;2021;4123
+Adobe;Balance Sheet;Long Term Debt;2022;4129
+Adobe;Balance Sheet;Long Term Debt;2023;3634
+Adobe;Balance Sheet;Long Term Debt;2024;5628
+Adobe;Balance Sheet;Long Term Debt;2025;6210
+Adobe;Balance Sheet;Total Liabilities;2019;10232
+Adobe;Balance Sheet;Total Liabilities;2020;11020
+Adobe;Balance Sheet;Total Liabilities;2021;12444
+Adobe;Balance Sheet;Total Liabilities;2022;13114
+Adobe;Balance Sheet;Total Liabilities;2023;13261
+Adobe;Balance Sheet;Total Liabilities;2024;16125
+Adobe;Balance Sheet;Total Liabilities;2025;17873
+Adobe;Balance Sheet;Treasury Stock;2019;-10615
+Adobe;Balance Sheet;Treasury Stock;2020;-13546
+Adobe;Balance Sheet;Treasury Stock;2021;-17399
+Adobe;Balance Sheet;Treasury Stock;2022;-23843
+Adobe;Balance Sheet;Treasury Stock;2023;-28129
+Adobe;Balance Sheet;Treasury Stock;2024;-37583
+Adobe;Balance Sheet;Treasury Stock;2025;-48847
+Adobe;Balance Sheet;Retained Earnings;2019;14829
+Adobe;Balance Sheet;Retained Earnings;2020;19611
+Adobe;Balance Sheet;Retained Earnings;2021;23905
+Adobe;Balance Sheet;Retained Earnings;2022;28319
+Adobe;Balance Sheet;Retained Earnings;2023;33346
+Adobe;Balance Sheet;Retained Earnings;2024;38470
+Adobe;Balance Sheet;Retained Earnings;2025;45354
+Adobe;Balance Sheet;Total Equity;2019;10530
+Adobe;Balance Sheet;Total Equity;2020;13264
+Adobe;Balance Sheet;Total Equity;2021;14797
+Adobe;Balance Sheet;Total Equity;2022;14051
+Adobe;Balance Sheet;Total Equity;2023;16518
+Adobe;Balance Sheet;Total Equity;2024;14105
+Adobe;Balance Sheet;Total Equity;2025;11623
