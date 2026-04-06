@@ -9,6 +9,7 @@ El objetivo de este análisis es investigar los datos públicos de esta empresa 
 Para este estudio se analizarán los ingresos y el uso que la empresa hace de ellos, con el fin de evaluar si la empresa está comprometida con su desarrollo futuro.
 
 2. Objetivo del proyecto
+
 El objetivo principal de este proyecto es analizar la evolución en los ingresos de la empresa Adobe en el periodo de estudio (2019-2025) y responder a las siguientes preguntas:
 
 ¿Cómo evolucionaron los ingresos en el tiempo?
