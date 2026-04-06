@@ -12,19 +12,27 @@ Para este estudio se analizarán los ingresos y el uso que la empresa hace de el
 
 El objetivo principal de este proyecto es analizar la evolución en los ingresos de la empresa Adobe en el periodo de estudio (2019-2025) y responder a las siguientes preguntas:
 
-¿Cómo evolucionaron los ingresos en el tiempo?
-¿Cómo evolucionaron los distintos márgenes de rentabilidad de la empresa?
-¿Cuánto dinero destina Adobe para recomprar sus propias acciones?
-¿Cuánto porcentaje de los ingresos esta empresa invierte en tecnología y desarrollo?
-¿Qué tan endeudada está la empresa?
+•	¿Cómo evolucionaron los ingresos en el tiempo?
+
+•	¿Cómo evolucionaron los distintos márgenes de rentabilidad de la empresa?
+
+•	¿Cuánto dinero destina Adobe para recomprar sus propias acciones?
+
+•	¿Cuánto porcentaje de los ingresos esta empresa invierte en tecnología y desarrollo?
+
+•	¿Qué tan endeudada está la empresa?
+
 
 El foco de la investigación es analizar la operativa financiera de la empresa y entender cómo se distribuyen estos altos márgenes de rentabilidad.
 
 3. Fuentes de datos.
+
 Los datos públicos oficiales utilizados en este proyecto provienen de SimFin que a su vez extrae los datos de la U.S. Securities and Exchange Commission (SEC) con un historial desde 2019 a 2025, para fines de esta investigación nos basamos en:
 
 •	Balance general.
+
 •	Flujo de efectivo.
+
 •	Estado de resultados.
 
 Nota: Los datos están representados en miles de millones de USD.
@@ -53,10 +61,13 @@ Esta decisión se hizo para facilitar las consultas en SQL y su posterior visual
 
 En esta etapa se realizó un análisis exploratorio de los datos (EDA) con el objetivo de identificar patrones, tendencias y relaciones relevantes entre las variables financieras. Se analizaron:
 
-•	Tendencias temporales (crecimiento de ingresos y métricas clave año a año) 
-•	Variaciones porcentuales interanuales 
-•	Relación entre variables (ej. ingresos vs rentabilidad, flujo de caja vs recompras) 
-•	Comportamientos atípicos o cambios estructurales en la serie 
+•	Tendencias temporales (crecimiento de ingresos y métricas clave año a año).
+
+•	Variaciones porcentuales interanuales.
+
+•	Relación entre variables (ej. ingresos vs rentabilidad, flujo de caja vs recompras).
+
+•	Comportamientos atípicos o cambios estructurales en la serie.
 
 Este análisis permitió formular hipótesis iniciales y orientar las consultas SQL hacia preguntas de negocio más específicas.
 
@@ -84,7 +95,9 @@ Para poder entender la evolución de los ingresos de esta empresa, debemos saber
 Tras estos resultados nos encontramos con las siguientes conclusiones:
 
 •	El crecimiento promedio anual desde el inicio de periodo de estudio hasta el último fue de 13.40% marcando un constante crecimiento. 
+
 •	El año con mayor crecimiento fue en el 2021, posiblemente impulsado por factores externos como la aceleración de la digitalización post-pandemia.
+
 •	En el año 2019 fue de $11171.00 y para el 2025 fue de $23769.00, es decir, los ingresos se duplicaron en el período analizado.
 
 Esto evidencia un crecimiento sostenido y consistente en los ingresos a lo largo del período.
@@ -111,7 +124,9 @@ Nota: El beneficio bruto, ingresos operativos y beneficio neto ya estaba en el d
 Tras estos resultados podemos deducir estos hallazgos:
 
 •	Adobe tiene porcentaje promedio anual de margen bruto del 87.67%, este margen es tan alto ya que el costo de producción del servicio que ofrecen una vez desarrollado, distribuirlo a más clientes tiene un costo marginal casi nulo, lo que refleja una estructura de costos eficiente con bajos costos directos en relación con los ingresos, típico de empresas de software.
+
 •	El margen operativo promedio anual es de 34.35%, lo que indica que, tras los gastos de servicio y sumándole los gastos de marketing, investigación, desarrollo y salarios a la empresa le sigue quedando un margen alto de beneficio.
+
 •	El margen neto promedio en todo el periodo es de 29.81%, lo que indica que después de pagar todos los gastos arriba mencionados y sumándole los impuestos, intereses de deudas, etc… a la empresa le sigue quedando un buen margen de ganancia, un porcentaje alto que evidencia la buena rentabilidad del producto.
 
 Se puede concluir que Adobe muestra una alta capacidad de generación de ingresos y rentabilidad sostenida, presentando un perfil financiero sólido, que se ve reflejado en la tendencia alcista año tras año. Todo esto se explica por su crecimiento sostenido, alta rentabilidad y generación consistente de flujo de caja.
@@ -141,14 +156,17 @@ A pesar de que cumple sus obligaciones, está usando un mayor porcentaje del flu
 
 Para explicar porque esto sería un riesgo debemos saber que cuando las recompras de acciones superan el flujo de caja operativo, implica que la empresa no está financiando estas recompras únicamente con el dinero generado por su actividad principal. Ese dato puede implicar:
 
-•	Uso de efectivo acumulado (reduciendo liquidez)
-•	Incremento del endeudamiento
+•	Uso de efectivo acumulado (reduciendo liquidez).
+
+•	Incremento del endeudamiento.
 
 Los posibles riesgos asociados incluyen:
 
-•	Menor flexibilidad financiera ante crisis o caídas en ingresos
-•	Mayor exposición a deuda si esta estrategia se mantiene en el tiempo
-•	Posible priorización del retorno al accionista sobre la reinversión en el negocio
+•	Menor flexibilidad financiera ante crisis o caídas en ingresos.
+
+•	Mayor exposición a deuda si esta estrategia se mantiene en el tiempo.
+
+•	Posible priorización del retorno al accionista sobre la reinversión en el negocio.
 
 Si bien en el corto plazo puede interpretarse como una señal de confianza, en el largo plazo requiere seguimiento para evaluar su sostenibilidad.
 
@@ -199,37 +217,56 @@ En conjunto, podemos concluir que Adobe presenta un modelo de negocio sólido y 
 Los hallazgos más relevantes son:
 
 •	Los ingresos de la empresa crecen interanualmente en promedio un 13.4% lo que lo convierte en una empresa muy rentable, cada año ingresa cada vez más dinero.
+
 •	Adobe presenta un modelo de negocio altamente rentable con márgenes consistentemente elevados.
+
 •	La empresa deja una buena suma de dinero después de pagar todas sus obligaciones, esto indica una alta eficiencia operativa, parte de esta rentabilidad se explica por el producto que ofrece ya que, al ofrecer un software, los márgenes de beneficio resultan ser altos.
-•	El crecimiento sostenido junto con altos márgenes sugiere una fuerte escalabilidad del negocio
+
+•	El crecimiento sostenido junto con altos márgenes sugiere una fuerte escalabilidad del negocio.
+
 •	En el periodo de estudio la empresa ha comprado un total de 39386 MM de dólares de sus propias acciones, es decir un 73.50% del flujo operativo.
+
 •	El año 2024 fue cuando la empresa hizo más recompra de sus propias acciones con un 113.44% sobre el flujo operativo, es decir compraron acciones por encima de lo que ingresaron.
+
 •	El aumento en recompras junto con mayor endeudamiento indica un cambio en la estrategia de asignación de capital.
+
 •	La empresa invierte un aproximado de un 17% de lo que ingresa en investigación y desarrollo, este dato demuestra que la empresa está comprometida cada año en expandirse e invertir en mejorar la tecnología, esto refuerza la sostenibilidad a largo plazo.
+
 •	Adobe maneja un 30.43% aproximado de endeudamiento frente al patrimonio total de la empresa en todo el periodo de estudio.
+
 •	Desde el inicio del periodo con un 9.39% al último con un 53.43% la empresa ha aumentado su endeudamiento, desde el 2024 los niveles aumentaron cada vez más.
+
 •	Las acciones del tesoro acumuladas pasaron de -10.615 MM USD en 2019 a un total de -48.847 MM USD en 2025, erosionando el patrimonio contable a pesar del crecimiento sostenido en beneficios netos.
 
 7. Limitaciones
    
 •	El análisis se basa únicamente en datos históricos.
+
 •	No se consideran factores macroeconómicos.
+
 •	No se comparó con competidores.
+
 •	No incluye análisis de valoración.
 
 8. Próximos pasos
    
 •	Incorporar datos del primer trimestre del año cuando sea publicado.
+
 •	Realizar comparaciones con competidores del sector.
+
 •	Analizar el impacto de cambios en leyes, demandas, factores regulatorios, inflación.
+
 •	Seguir los indicadores de riesgo de deuda.
 
 9. Herramientas
    
-•	Excel y Power Query (Limpieza)
-•	SQL (consultas análiticas y transformación de datos)
-•	Power BI (dashboard y visualización)
-•	GitHub (documentación y versionado)
+•	Excel y Power Query (Limpieza).
+
+•	SQL (consultas análiticas y transformación de datos).
+
+•	Power BI (dashboard y visualización).
+
+•	GitHub (documentación y versionado).
 
 11. Nota final.
 
